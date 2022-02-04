@@ -1,0 +1,60 @@
+body{
+  background-color: #fff;
+  color: #212121;
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+.orange-underline{
+  border-bottom: 1px solid #E64A1D;
+
+}
+
+.orange-text{
+  color: #E64A1D;
+}
+
+.top-nav ul li{
+  display: inline;
+  padding-right:1.2em;
+  font-weight: bold;
+  font-size: .8em;
+
+}
+
+.top-nav{
+  position: fixed;
+  display: relative;
+    right: 20px;
+}
+
+.top-nav a:link {
+  text-decoration: none;
+  color: #rgb(98,97,96);
+
+
+}
+
+.top-nav a:visited{
+  color: black;
+}
+
+
+button, input[type="submit"]{
+  /*instead of giving the button same width that may fit some button txt but not
+  fit others,   give it same padding and then it can growh or shrink depending
+  on button text*/
+
+  padding: 10px 25px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #E64A1D;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+
+section ul li{
+  list-style: none;
+  display: inline-block;
+}
